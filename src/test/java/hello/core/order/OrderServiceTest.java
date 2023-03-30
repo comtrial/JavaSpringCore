@@ -19,7 +19,7 @@ class OrderServiceTest {
     public void beforeEach() {
         AppConfig appconfig = new AppConfig();
         memberService = appconfig.memberService();
-        orderService = appconfig.orderService();
+//        orderService = appconfig.orderService();
     }
 
     @Test
